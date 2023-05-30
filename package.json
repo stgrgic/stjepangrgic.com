@@ -2,11 +2,12 @@
   "name": "stjepangrgic.com",
   "version": "2023.5.30",
   "description": "Personal website",
+  "author": "Stjepan Grgic",
+  "license": "MIT",
   "scripts": {
     "serve": "webpack serve --progress --config webpack.config.development.js",
-    "build": "webpack -p --progress --config webpack.config.build.js"
+    "build": "webpack --progress --config webpack.config.build.js"
   },
-  "author": "Stjepan Grgic",
   "devDependencies": {
     "clean-webpack-plugin": "^4.0.0",
     "copy-webpack-plugin": "^11.0.0",
