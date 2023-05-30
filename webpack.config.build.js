@@ -7,7 +7,7 @@ const config = require("./webpack.config.js");
 module.exports = merge(config, {
   mode: "production",
   output: {
-    path: path.resolve(__dirname, "public"),
+    path: path.resolve(__dirname, "build"),
   },
   plugins: [new CleanWebpackPlugin()],
 });
